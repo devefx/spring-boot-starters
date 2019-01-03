@@ -27,9 +27,9 @@
     </developers>
 
     <scm>
-        <connection>scm:https://github.com/devefx/dozermapper-spring-boot-starter.git</connection>
-        <developerConnection>scm:https://github.com/devefx/dozermapper-spring-boot-starter.git</developerConnection>
-        <url>scm:https://github.com/devefx/dozermapper-spring-boot-starter.git</url>
+        <connection>scm:https://github.com/devefx/spring-boot-starters.git</connection>
+        <developerConnection>scm:https://github.com/devefx/spring-boot-starters.git</developerConnection>
+        <url>scm:https://github.com/devefx/spring-boot-starters.git</url>
         <tag>v0.0.1</tag>
     </scm>
     <distributionManagement>
