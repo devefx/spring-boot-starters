@@ -62,6 +62,7 @@
         <maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
         <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
+        <cobertura-maven-plugin.version>2.7</cobertura-maven-plugin.version>
 
         <spring-boot.version>1.5.12.RELEASE</spring-boot.version>
         <commons-logging.version>1.2</commons-logging.version>
@@ -162,6 +163,18 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>cobertura-maven-plugin</artifactId>
+                <version>${cobertura-maven-plugin.version}</version>
+                <configuration>
+                    <formats>
+                        <format>html</format>
+                        <format>xml</format>
+                    </formats>
+                    <check />
+                </configuration>
             </plugin>
         </plugins>
     </build>
