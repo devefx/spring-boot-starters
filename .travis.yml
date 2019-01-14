@@ -13,6 +13,7 @@ deploy:
   file:
   - dozermapper-spring-boot-starter/target/dozermapper-spring-boot-starter-0.0.1.jar
   - retrofit-spring-boot-starter/target/retrofit-spring-boot-starter-0.0.1.jar
+  skip_cleanup: true
 
 cache:
   directories:
