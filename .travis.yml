@@ -3,7 +3,7 @@ language: java
 jdk:
   - oraclejdk8
 
-script:
+install:
   - ./mvnw package cobertura:cobertura -Dmaven.javadoc.skip=true -Dgpg.skip=true
 
 after_success:
