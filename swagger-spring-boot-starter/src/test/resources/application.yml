@@ -1,0 +1,18 @@
+swagger:
+  documentation-type: swagger_2
+  api-info:
+    title: "API"
+    description: "Swagger API"
+    contact:
+      name: Yoke
+      email: devefx@163.com
+      url: https://github.com/devefx
+  select:
+    apis:
+      base-package: org.devefx.spring.boot.demo.controller
+    paths:
+      any: true
+  path-mapping: /
+  direct-model-substitutes:
+  - clazz: java.time.LocalDate
+    with: java.lang.String
