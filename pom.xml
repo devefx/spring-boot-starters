@@ -17,6 +17,7 @@
         <module>retrofit-spring-boot-starter</module>
         <module>dozermapper-spring-boot-starter</module>
         <module>swagger-spring-boot-starter</module>
+        <module>cqhttp-spring-boot-starter</module>
     </modules>
 
     <licenses>
@@ -65,7 +66,7 @@
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
         <cobertura-maven-plugin.version>2.7</cobertura-maven-plugin.version>
 
-        <spring-boot.version>1.5.12.RELEASE</spring-boot.version>
+        <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
         <commons-logging.version>1.2</commons-logging.version>
         <retrofit2.version>2.5.0</retrofit2.version>
         <dozermapper.version>6.4.0</dozermapper.version>
