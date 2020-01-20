@@ -1,6 +1,6 @@
 package org.devefx.spring.boot.cqhttp.listener;
 
-import org.devefx.spring.boot.cqhttp.domain.entity.EncodeMessage;
+import org.devefx.spring.boot.cqhttp.types.EncodeMessage;
 import org.devefx.spring.boot.cqhttp.event.message.PrivateMessageEvent;
 import org.devefx.spring.boot.cqhttp.event.message.reply.PrivateMessageReply;
 import org.springframework.core.annotation.Order;

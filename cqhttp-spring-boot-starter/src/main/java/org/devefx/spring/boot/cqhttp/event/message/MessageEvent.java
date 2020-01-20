@@ -6,9 +6,9 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
-import org.devefx.spring.boot.cqhttp.domain.entity.Message;
+import org.devefx.spring.boot.cqhttp.types.Message;
 import org.devefx.spring.boot.cqhttp.event.Event;
-import org.devefx.spring.boot.cqhttp.domain.enums.MessageType;
+import org.devefx.spring.boot.cqhttp.enums.MessageType;
 
 @Data
 @ToString(callSuper = true)

@@ -37,6 +37,10 @@ public class ApiResp<T> {
      */
     private T data;
 
+    public boolean isOk() {
+        return status == Status.OK && code == 0;
+    }
+
     public enum Status {
         /**
          * 表示操作成功，同时 {@link #code} （返回码）会等于 0，即 酷Q 函数返回了 0。

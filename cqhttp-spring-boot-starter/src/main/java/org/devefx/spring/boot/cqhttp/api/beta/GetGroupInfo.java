@@ -6,6 +6,8 @@ import lombok.RequiredArgsConstructor;
 import org.devefx.spring.boot.cqhttp.api.GetApi;
 import org.devefx.spring.boot.cqhttp.api.resp.GroupInfoDetailed;
 
+import javax.validation.constraints.NotNull;
+
 /**
  * 获取群信息
  */
@@ -16,6 +18,7 @@ public class GetGroupInfo implements GetApi<GroupInfoDetailed> {
      * 要查询的群号
      */
     @JsonProperty("group_id")
+    @NotNull
     private final Long groupId;
 
     @Override

@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonValue;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
-import org.devefx.spring.boot.cqhttp.domain.entity.Sender;
+import org.devefx.spring.boot.cqhttp.types.Sender;
 import org.devefx.spring.boot.cqhttp.event.message.reply.PrivateMessageReply;
 
 import java.util.Arrays;

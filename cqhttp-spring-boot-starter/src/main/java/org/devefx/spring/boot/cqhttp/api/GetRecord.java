@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+import javax.validation.constraints.NotEmpty;
+
 /**
  * 获取语音
  *
@@ -17,11 +19,13 @@ public class GetRecord {
     /**
      * 收到的语音文件名（CQ 码的 file 参数），如 0B38145AA44505000B38145AA4450500.silk
      */
+    @NotEmpty
     private final String file;
     /**
      * 要转换到的格式，目前支持 mp3、amr、wma、m4a、spx、ogg、wav、flac
      */
     @JsonProperty("out_format")
+    @NotEmpty
     private final String outFormat;
     /**
      * 是否返回文件的绝对路径（Windows 环境下建议使用，Docker 中不建议）

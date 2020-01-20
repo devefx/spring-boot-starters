@@ -6,8 +6,8 @@ import com.fasterxml.jackson.annotation.JsonValue;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
-import org.devefx.spring.boot.cqhttp.domain.entity.Anonymous;
-import org.devefx.spring.boot.cqhttp.domain.entity.GroupSender;
+import org.devefx.spring.boot.cqhttp.types.Anonymous;
+import org.devefx.spring.boot.cqhttp.types.GroupSender;
 import org.devefx.spring.boot.cqhttp.event.message.reply.GroupMessageReply;
 
 import java.util.Arrays;

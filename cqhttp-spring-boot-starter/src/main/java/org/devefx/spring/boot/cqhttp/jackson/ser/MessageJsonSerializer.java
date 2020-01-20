@@ -3,9 +3,9 @@ package org.devefx.spring.boot.cqhttp.jackson.ser;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
-import org.devefx.spring.boot.cqhttp.domain.entity.DecodeMessage;
-import org.devefx.spring.boot.cqhttp.domain.entity.EncodeMessage;
-import org.devefx.spring.boot.cqhttp.domain.entity.Message;
+import org.devefx.spring.boot.cqhttp.types.DecodeMessage;
+import org.devefx.spring.boot.cqhttp.types.EncodeMessage;
+import org.devefx.spring.boot.cqhttp.types.Message;
 
 import java.io.IOException;
 import java.util.List;

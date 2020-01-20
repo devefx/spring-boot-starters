@@ -3,8 +3,8 @@ package org.devefx.spring.boot.cqhttp.api;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import org.devefx.spring.boot.cqhttp.api.resp.MessageId;
-import org.devefx.spring.boot.cqhttp.domain.entity.Message;
-import org.devefx.spring.boot.cqhttp.domain.enums.MessageType;
+import org.devefx.spring.boot.cqhttp.enums.MessageType;
+import org.devefx.spring.boot.cqhttp.types.Message;
 
 import javax.validation.constraints.NotNull;
 
@@ -19,19 +19,16 @@ public class SendMsg implements PostApi<MessageId> {
      * 对方 QQ 号（消息类型为 private 时需要）
      */
     @JsonProperty("user_id")
-    @NotNull
     private Long userId;
     /**
      * 群号（消息类型为 group 时需要）
      */
     @JsonProperty("group_id")
-    @NotNull
     private Long groupId;
     /**
      * 讨论组 ID（消息类型为 discuss 时需要）
      */
     @JsonProperty("discuss_id")
-    @NotNull
     private Long discussId;
     /**
      * 要发送的内容

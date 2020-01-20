@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.devefx.spring.boot.cqhttp.api.resp.MessageId;
-import org.devefx.spring.boot.cqhttp.domain.entity.Message;
+import org.devefx.spring.boot.cqhttp.types.Message;
 
 import javax.validation.constraints.NotNull;
 
@@ -30,7 +30,6 @@ public class SendGroupMsg implements PostApi<MessageId> {
     /**
      * 消息内容是否作为纯文本发送（即不解析 CQ 码），只在 message 字段是字符串时有效
      */
-    @NotNull
     @JsonProperty("auto_escape")
     private boolean autoEscape;
 }

@@ -2,7 +2,7 @@ package org.devefx.spring.boot.cqhttp.api.resp;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
-import org.devefx.spring.boot.cqhttp.domain.enums.Sex;
+import org.devefx.spring.boot.cqhttp.enums.Sex;
 
 /**
  * 获取陌生人信息

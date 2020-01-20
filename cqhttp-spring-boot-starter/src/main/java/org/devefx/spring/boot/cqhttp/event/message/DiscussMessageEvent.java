@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
-import org.devefx.spring.boot.cqhttp.domain.entity.Sender;
+import org.devefx.spring.boot.cqhttp.types.Sender;
 import org.devefx.spring.boot.cqhttp.event.message.reply.DiscussMessageReply;
 
 @Data

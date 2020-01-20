@@ -5,10 +5,10 @@ import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.JsonDeserializer;
-import org.devefx.spring.boot.cqhttp.domain.entity.DecodeMessage;
-import org.devefx.spring.boot.cqhttp.domain.entity.EncodeMessage;
-import org.devefx.spring.boot.cqhttp.domain.entity.Message;
-import org.devefx.spring.boot.cqhttp.domain.entity.message.Node;
+import org.devefx.spring.boot.cqhttp.types.DecodeMessage;
+import org.devefx.spring.boot.cqhttp.types.EncodeMessage;
+import org.devefx.spring.boot.cqhttp.types.Message;
+import org.devefx.spring.boot.cqhttp.types.message.Node;
 
 import java.io.IOException;
 import java.util.List;

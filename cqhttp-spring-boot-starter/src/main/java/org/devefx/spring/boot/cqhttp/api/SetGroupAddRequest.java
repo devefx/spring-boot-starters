@@ -5,6 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
 import static org.devefx.spring.boot.cqhttp.event.request.GroupRequestEvent.SubType;
 
 /**
@@ -17,11 +20,13 @@ public class SetGroupAddRequest implements PostApi<Void> {
     /**
      * 加群请求的 flag（需从上报的数据中获得）
      */
+    @NotEmpty
     private final String flag;
     /**
      * 请求类型（需要和上报消息中的 sub_type 字段相符）
      */
     @JsonProperty("sub_type")
+    @NotNull
     private final SubType subType;
     /**
      * 是否同意请求／邀请

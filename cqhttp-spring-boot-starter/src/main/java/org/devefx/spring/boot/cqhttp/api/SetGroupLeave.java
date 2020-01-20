@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+import javax.validation.constraints.NotNull;
+
 /**
  * 退出群组
  */
@@ -16,6 +18,7 @@ public class SetGroupLeave implements PostApi<Void> {
      * 群号
      */
     @JsonProperty("group_id")
+    @NotNull
     private final Long groupId;
     /**
      * 是否解散，如果登录号是群主，则仅在此项为 true 时能够解散

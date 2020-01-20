@@ -68,6 +68,7 @@
 
         <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
         <commons-logging.version>1.2</commons-logging.version>
+        <commons-text.version>1.8</commons-text.version>
         <retrofit2.version>2.5.0</retrofit2.version>
         <dozermapper.version>6.4.0</dozermapper.version>
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
@@ -89,6 +90,11 @@
                 <groupId>commons-logging</groupId>
                 <artifactId>commons-logging</artifactId>
                 <version>${commons-logging.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-text</artifactId>
+                <version>${commons-text.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.squareup.retrofit2</groupId>

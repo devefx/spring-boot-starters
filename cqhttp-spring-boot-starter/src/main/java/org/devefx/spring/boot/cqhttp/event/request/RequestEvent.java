@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
-import org.devefx.spring.boot.cqhttp.domain.enums.RequestType;
+import org.devefx.spring.boot.cqhttp.enums.RequestType;
 import org.devefx.spring.boot.cqhttp.event.Event;
 
 @Data

@@ -2,7 +2,7 @@ package org.devefx.spring.boot.cqhttp.event.message.reply;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
-import org.devefx.spring.boot.cqhttp.domain.entity.Message;
+import org.devefx.spring.boot.cqhttp.types.Message;
 
 @Data
 public class PrivateMessageReply {

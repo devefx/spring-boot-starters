@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
+import javax.validation.constraints.NotNull;
+
 /**
  * 群组匿名用户禁言
  */
@@ -16,6 +18,7 @@ public class SetGroupAnonymousBan implements PostApi<Void> {
      * 群号
      */
     @JsonProperty("group_id")
+    @NotNull
     private final Long groupId;
     /**
      * 可选，要禁言的匿名用户对象（群消息上报的 anonymous 字段）

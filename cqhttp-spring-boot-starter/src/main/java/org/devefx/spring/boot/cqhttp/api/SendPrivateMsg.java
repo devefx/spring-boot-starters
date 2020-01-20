@@ -5,8 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.devefx.spring.boot.cqhttp.api.resp.MessageId;
-import org.devefx.spring.boot.cqhttp.domain.entity.Message;
+import org.devefx.spring.boot.cqhttp.types.Message;
 
+import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
 /**
@@ -25,6 +26,7 @@ public class SendPrivateMsg implements PostApi<MessageId> {
     /**
      * 要发送的内容
      */
+    @Valid
     @NotNull
     private final Message message;
     /**
