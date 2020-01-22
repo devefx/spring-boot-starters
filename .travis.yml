@@ -1,7 +1,7 @@
 language: java
 
 jdk:
-  - oraclejdk8
+  - openjdk8
 
 install:
   - ./mvnw package cobertura:cobertura -Dmaven.javadoc.skip=true -Dgpg.skip=true
