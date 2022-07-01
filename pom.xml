@@ -72,7 +72,7 @@
         <retrofit2.version>2.5.0</retrofit2.version>
         <dozermapper.version>6.4.0</dozermapper.version>
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
-        <guava.version>23.0</guava.version>
+        <guava.version>29.0</guava.version>
     </properties>
 
     <dependencyManagement>
