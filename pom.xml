@@ -68,7 +68,7 @@
 
         <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
         <commons-logging.version>1.2</commons-logging.version>
-        <commons-text.version>1.8</commons-text.version>
+        <commons-text.version>1.10.0</commons-text.version>
         <retrofit2.version>2.5.0</retrofit2.version>
         <dozermapper.version>6.4.0</dozermapper.version>
         <springfox-swagger2.version>2.10.0</springfox-swagger2.version>
